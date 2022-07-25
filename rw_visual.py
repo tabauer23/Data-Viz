@@ -1,10 +1,10 @@
 import matplotlib.pyplot as plt
-from random_walk import RandomWalk
+from random_walk2 import RandomWalk
 
 # Keep making new walks, as long as the program is active. 
 while True:
     # Make a new random walk, and plot the points.
-    rw=RandomWalk(500000)
+    rw=RandomWalk(5000)
     rw.fill_walk()
 
     point_numbers = list(range(rw.num_points))
